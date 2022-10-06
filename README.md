@@ -48,10 +48,6 @@ The library is available at the PyPi repository, so you can easily install it by
 
     pip install pinns
     
-And then you can import it to your module with:
-
-    import pinns
-
 ## Define the domain
 
 The domain and all things related to point sets are handled by the `geometry` module. The DE domain is created by the `Domain` class. The constructor has 3 parameters:
