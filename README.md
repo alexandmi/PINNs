@@ -46,7 +46,7 @@ A PINNs operation is summarized as follows: Data x are fed into the input layer,
 
 The library is available at the PyPi repository, so you can easily install it by typing:
 
-    !pip install pinns
+    pip install pinns
 
 ## Define the domain
 
