@@ -79,7 +79,7 @@ The get() method is used on Domain objects, in order to acquire a specific vecto
 	x0 = x.get(0)
 	x1 = x.get(1)
 
-***Note 1:*** Watch out for the numbering used for the DE variables. In many mathematical statements the numbering starts from 1, but the first element in the Domain is returned with get(0). In the example above, the original domain variables were $x_1$ and $x_2$, but to avoid confusion when handled in the code, they were renamed to `x0` and  `x1` respectfully.
+***Note 1:*** Watch out for the numbering used for the DE variables. In many mathematical statements the numbering starts from 1, but the first element in the Domain is returned with get(0). In the example above, the original domain variables were $x_1$ and $x_2$, but to avoid confusion when handled in the code, they were renamed to `x0` and  `x1` respectively.
 
 ***Note 2:*** Keep in mind that while the original x variable is a Domain object, variables `x0` and `x1` are tensorflow.Variable tensors, so properties of Domain do not apply to them.
 
@@ -301,7 +301,7 @@ Let be partial DE with 3 independent variables. We want 2 hidden layers with 24 
 
 **Example 2:**
 
-Let be a system of 2 ordinary DEs. We want 3 hidden layers with 12,24, and 12 nodes, and activation function `sigmoid`,`tanh`, and `sigmoid` respectfully:
+Let be a system of 2 ordinary DEs. We want 3 hidden layers with 12,24, and 12 nodes, and activation function `sigmoid`,`tanh`, and `sigmoid` respectively:
 
 	model = pinns.net(inputs=1,layers=[12,24,12],activation=['sigmoid','tanh','sigmoid'], outputs=2)
 
